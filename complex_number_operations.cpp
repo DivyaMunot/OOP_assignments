@@ -1,3 +1,8 @@
+//============================================================================
+// Name        : complex_number_operations.cpp
+// Author      : Divya Munot
+//============================================================================
+
 #include<iostream>
 
 using namespace std;
@@ -14,11 +19,11 @@ public:
 
 		friend istream & operator >> (istream &in, complex &c)
 		{
-		    cout << "\n Enter the real part : ";
-            in >> c.r;
-            cout << " Enter the imaginary part : ";
-            in >> c.i;
-            return in;
+		    	cout << "\n Enter the real part : ";
+            	    	in >> c.r;
+            	    	cout << " Enter the imaginary part : ";
+            	    	in >> c.i;
+            	    	return in;
 		}
 
 		complex operator + (complex c)			        //addition of complex numbers
@@ -47,14 +52,14 @@ public:
 
 		friend ostream & operator << (ostream &out, complex &c)
 		{
-		    if (c.r==0)
-                out << c.i << "i" << "\n";
-            else if(c.i==0)
-                out << c.r << "\n";
-            else if(c.i<0)
-                out << c.r << c.i << "i" << "\n";
-            else
-                out << c.r << "+" << c.i << "i" << "\n";
+		    	if (c.r==0)
+                		out << c.i << "i" << "\n";
+            		else if(c.i==0)
+                		out << c.r << "\n";
+            		else if(c.i<0)
+                		out << c.r << c.i << "i" << "\n";
+            		else
+                		out << c.r << "+" << c.i << "i" << "\n";
 		}
 };
 
@@ -64,7 +69,7 @@ int main()
 	char x,ch;
 
 	cout << "\n First complex number ";
-    cin >> c1;
+    	cin >> c1;
 	cout << "\n Second complex number ";
 	cin >> c2;
 	cout << "\n Entered 1st complex number : ";
@@ -75,10 +80,10 @@ int main()
 	do
 	{
 		cout << "\n Enter your choice "
-                "\n + or addition "
-			    "\n - for subtraction "
-			    "\n * for multiplication "
-			    "\n Here : ";
+                	"\n + or addition "
+			"\n - for subtraction "
+			"\n * for multiplication "
+			"\n Here : ";
 		cin >> ch;
 
 		switch(ch)
