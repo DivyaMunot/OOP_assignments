@@ -1,9 +1,6 @@
 //============================================================================
-// Name        : dv_exception.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Name        : exception_handling.cpp
+// Author      : Divya Munot
 //============================================================================
 
 #include <iostream>
