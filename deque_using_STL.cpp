@@ -1,9 +1,6 @@
 //============================================================================
-// Name        : deque_STL.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Name        : deque_using_STL.cpp
+// Author      : Divya Munot
 //============================================================================
 
 
