@@ -1,9 +1,6 @@
 //============================================================================
-// Name        : dv_fileHandling.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Name        : fileHandling.cpp
+// Author      : Divya Munot
 //============================================================================
 
 #include <iostream>
