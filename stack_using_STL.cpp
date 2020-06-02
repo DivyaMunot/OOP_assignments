@@ -1,9 +1,6 @@
 //============================================================================
-// Name        : stack_vector.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Name        : stack_using_STL.cpp
+// Author      : Divya Munot
 //============================================================================
 
 #include <iostream>
